@@ -1,0 +1,19 @@
+.listingTable {
+  width: 70%;
+  margin: 0 15%; 
+}
+.listingTable table {
+  width: 100%;
+  table-layout: fixed;
+}
+.listingTable th,
+.listingTable td {
+  overflow: hidden;
+  max-width: 200px;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  padding-right: 20px !important;
+}
+mat-form-field{
+width:100%;
+}
